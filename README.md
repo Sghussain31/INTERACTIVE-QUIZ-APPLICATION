@@ -14,3 +14,4 @@ One unique feature of this quiz app is the ability to generate certificates. Onc
 The project showcases strong skills in DOM manipulation, event handling, conditional logic, and dynamic rendering using pure JavaScript. The design, created with CSS, is clean, modern, and responsive, ensuring compatibility with various devices. Overall, this quiz application is lightweight, user-friendly, and easily extendable. Additional features like timers, question categories, progress bars, or API-based question fetching can be added in the future. It serves as an excellent portfolio project and a practical learning tool.
 
 OUTCOME:
+https://github.com/Sghussain31/INTERACTIVE-QUIZ-APPLICATION/issues/1#issue-3522781320
