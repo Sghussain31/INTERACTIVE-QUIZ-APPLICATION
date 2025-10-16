@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Web Developement Quiz</h1>
+
+    <div class="user-name" id="name-section">
+      <input type="text" id="username" placeholder="Enter your name" required>
+      <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <div id="quiz" class="hidden">
+      <div id="question"></div>
+      <div id="options"></div>
+      <button id="next-btn">Next</button>
+    </div>
+
+    <div id="result" class="hidden">
+      <h2>Your Score: <span id="score"></span></h2>
+      <p id="message"></p>
+      <button id="certificate-btn">Download Certificate</button>
+      <button id="restart-btn">Restart Quiz</button>
+    </div>
+  </div>
+
+  <canvas id="certificateCanvas" class="hidden"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
